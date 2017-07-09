@@ -38,9 +38,6 @@ class Location(models.Model):
     circle_name = models.CharField(max_length=255)
     taluk = models.CharField(max_length=255)
 
-    class Meta:
-        unique_together = ('pincode', 'taluk')
-
 
 class OfficeLocation(models.Model):
     """
