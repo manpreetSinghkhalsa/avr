@@ -3,7 +3,7 @@ chardet==3.0.4
 Django==1.10.7
 django-filter==1.0.4
 django-haystack==2.6.1
-djangorestframework==3.6.3
+djangorestframework==3.9.1
 elasticsearch==2.4.1
 idna==2.5
 Markdown==2.6.8
